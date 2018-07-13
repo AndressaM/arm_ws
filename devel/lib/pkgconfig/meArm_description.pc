@@ -1,0 +1,8 @@
+prefix=/home/andressa/arm_ws/devel
+
+Name: meArm_description
+Description: Description of meArm_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andressa/arm_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/andressa/arm_ws/devel
+
+Name: mearm
+Description: Description of mearm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andressa/arm_ws/devel/lib 
+Requires: 
