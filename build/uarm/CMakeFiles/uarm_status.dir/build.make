@@ -96,8 +96,8 @@ uarm_status_EXTERNAL_OBJECTS =
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/libactionlib.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/libmessage_filters.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/libroscpp.so
-/home/andressa/arm_ws/devel/lib/uarm/uarm_status: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/andressa/arm_ws/devel/lib/uarm/uarm_status: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/libxmlrpcpp.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/libtf2.so
 /home/andressa/arm_ws/devel/lib/uarm/uarm_status: /opt/ros/kinetic/lib/librosconsole.so

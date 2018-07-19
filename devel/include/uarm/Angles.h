@@ -54,6 +54,7 @@ struct Angles_
 
 
 
+
   typedef boost::shared_ptr< ::uarm::Angles_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::uarm::Angles_<ContainerAllocator> const> ConstPtr;
 

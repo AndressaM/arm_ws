@@ -1,0 +1,8 @@
+prefix=/home/andressa/arm_ws/install
+
+Name: arm_controller
+Description: Description of arm_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andressa/arm_ws/install/lib 
+Requires: 

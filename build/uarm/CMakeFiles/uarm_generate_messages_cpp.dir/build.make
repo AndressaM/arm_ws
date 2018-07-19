@@ -63,25 +63,25 @@ uarm/CMakeFiles/uarm_generate_messages_cpp: /home/andressa/arm_ws/devel/include/
 /home/andressa/arm_ws/devel/include/uarm/CoordsWithTS4.h: /home/andressa/arm_ws/src/uarm/msg/CoordsWithTS4.msg
 /home/andressa/arm_ws/devel/include/uarm/CoordsWithTS4.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andressa/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uarm/CoordsWithTS4.msg"
-	cd /home/andressa/arm_ws/build/uarm && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/CoordsWithTS4.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/andressa/arm_ws/src/uarm && /home/andressa/arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/CoordsWithTS4.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/andressa/arm_ws/devel/include/uarm/Coords.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/andressa/arm_ws/devel/include/uarm/Coords.h: /home/andressa/arm_ws/src/uarm/msg/Coords.msg
 /home/andressa/arm_ws/devel/include/uarm/Coords.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andressa/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from uarm/Coords.msg"
-	cd /home/andressa/arm_ws/build/uarm && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/Coords.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/andressa/arm_ws/src/uarm && /home/andressa/arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/Coords.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/andressa/arm_ws/devel/include/uarm/Angles.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/andressa/arm_ws/devel/include/uarm/Angles.h: /home/andressa/arm_ws/src/uarm/msg/Angles.msg
 /home/andressa/arm_ws/devel/include/uarm/Angles.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andressa/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from uarm/Angles.msg"
-	cd /home/andressa/arm_ws/build/uarm && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/Angles.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/andressa/arm_ws/src/uarm && /home/andressa/arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/Angles.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/andressa/arm_ws/devel/include/uarm/CoordsWithTime.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/andressa/arm_ws/devel/include/uarm/CoordsWithTime.h: /home/andressa/arm_ws/src/uarm/msg/CoordsWithTime.msg
 /home/andressa/arm_ws/devel/include/uarm/CoordsWithTime.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andressa/arm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from uarm/CoordsWithTime.msg"
-	cd /home/andressa/arm_ws/build/uarm && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/CoordsWithTime.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/andressa/arm_ws/src/uarm && /home/andressa/arm_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andressa/arm_ws/src/uarm/msg/CoordsWithTime.msg -Iuarm:/home/andressa/arm_ws/src/uarm/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p uarm -o /home/andressa/arm_ws/devel/include/uarm -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 uarm_generate_messages_cpp: uarm/CMakeFiles/uarm_generate_messages_cpp
 uarm_generate_messages_cpp: /home/andressa/arm_ws/devel/include/uarm/CoordsWithTS4.h

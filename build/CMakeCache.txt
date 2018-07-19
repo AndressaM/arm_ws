@@ -192,6 +192,9 @@ EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 //Empy script
 EMPY_SCRIPT:STRING=/usr/bin/empy
 
+//The directory containing a CMake configuration file for GMock.
+GMock_DIR:PATH=GMock_DIR-NOTFOUND
+
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/usr/include
 
@@ -246,17 +249,53 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Path to a file.
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
+
+//Path to a file.
+_gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
+
+//Path to a file.
+_gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
+
+//Path to a file.
+_gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
+
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
 
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
 
+//Value Computed by CMake
+arm_controller_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/arm_controller
+
+//Value Computed by CMake
+arm_controller_SOURCE_DIR:STATIC=/home/andressa/arm_ws/src/arm_controller
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
+
+//Value Computed by CMake
+dq_robotics_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/dq_robotics
+
+//The directory containing a CMake configuration file for dq_robotics.
+dq_robotics_DIR:PATH=/home/andressa/arm_ws/devel/share/dq_robotics/cmake
+
+//Dependencies for target
+dq_robotics_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+dq_robotics_SOURCE_DIR:STATIC=/home/andressa/arm_ws/src/dq_robotics
+
+//Value Computed by CMake
+dq_robotics_example_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/dq_robotics_example
+
+//Value Computed by CMake
+dq_robotics_example_SOURCE_DIR:STATIC=/home/andressa/arm_ws/src/dq_robotics_example
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
@@ -280,7 +319,22 @@ genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
 geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/gtest
+gmock_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/gtest
+
+//Dependencies for the target
+gmock_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//Value Computed by CMake
+gmock_SOURCE_DIR:STATIC=/usr/src/gmock
+
+//Build all of Google Mock's own tests.
+gmock_build_tests:BOOL=OFF
+
+//Dependencies for the target
+gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/home/andressa/arm_ws/build/gtest/gtest
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-lpthread;
@@ -504,7 +558,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -547,6 +601,11 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
+GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
+GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/andressa/arm_ws/build/gmock
+GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
 GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest

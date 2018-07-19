@@ -1,0 +1,8 @@
+prefix=/home/andressa/arm_ws/devel
+
+Name: dq_robotics_example
+Description: Description of dq_robotics_example
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andressa/arm_ws/devel/lib 
+Requires: 

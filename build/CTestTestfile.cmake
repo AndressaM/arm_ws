@@ -5,5 +5,9 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(dq_robotics)
+subdirs(dq_robotics_example)
+subdirs(mearm)
+subdirs(arm_controller)
 subdirs(robot_setup_tf)
 subdirs(uarm)

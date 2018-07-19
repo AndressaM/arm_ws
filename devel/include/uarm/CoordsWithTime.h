@@ -54,6 +54,7 @@ struct CoordsWithTime_
 
 
 
+
   typedef boost::shared_ptr< ::uarm::CoordsWithTime_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::uarm::CoordsWithTime_<ContainerAllocator> const> ConstPtr;
 

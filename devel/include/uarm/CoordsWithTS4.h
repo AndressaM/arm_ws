@@ -59,6 +59,7 @@ struct CoordsWithTS4_
 
 
 
+
   typedef boost::shared_ptr< ::uarm::CoordsWithTS4_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::uarm::CoordsWithTS4_<ContainerAllocator> const> ConstPtr;
 
