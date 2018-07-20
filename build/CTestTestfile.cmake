@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(dq_robotics)
+subdirs(arm_wrapper)
 subdirs(dq_robotics_example)
 subdirs(mearm)
 subdirs(arm_controller)

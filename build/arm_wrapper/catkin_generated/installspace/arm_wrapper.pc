@@ -1,0 +1,8 @@
+prefix=/home/andressa/arm_ws/install
+
+Name: arm_wrapper
+Description: Description of arm_wrapper
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andressa/arm_ws/install/lib 
+Requires: 

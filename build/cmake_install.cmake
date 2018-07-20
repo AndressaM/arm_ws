@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/andressa/arm_ws/build/gtest/cmake_install.cmake")
   include("/home/andressa/arm_ws/build/dq_robotics/cmake_install.cmake")
+  include("/home/andressa/arm_ws/build/arm_wrapper/cmake_install.cmake")
   include("/home/andressa/arm_ws/build/dq_robotics_example/cmake_install.cmake")
   include("/home/andressa/arm_ws/build/mearm/cmake_install.cmake")
   include("/home/andressa/arm_ws/build/arm_controller/cmake_install.cmake")

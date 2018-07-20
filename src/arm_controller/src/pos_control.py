@@ -1,5 +1,6 @@
+#!/usr/bin/env python2.7
 from MeArmKinematics import MeArmKinematics
-from MeArm import MeArm
+#from MeArm import MeArm
 from DQ import *
 import numpy as np
 import time
@@ -12,10 +13,10 @@ def callback(msg):
 	posx=msg.x
 	posy=msg.y
 	posz=msg.z
-	position = np.array(posx, posy, posz)
-
+	position = np.array([posx, posy, posz])
 	kinematics = MeArmKinematics()
-	mearm = MeArm(baseServoPin = 4, rightServoPin = 17, leftServoPin = 27, handServoPin = 22)
+	
+	#mearm = MeArm(baseServoPin = 4, rightServoPin = 17, leftServoPin = 27, handServoPin = 22)
 
 	theta = np.array([0, 0, 0])
 
@@ -34,9 +35,9 @@ def callback(msg):
 	    x = kinematics.fkm(theta)
 	    J = kinematics.jacobian(theta)
 	    error = vec8(xd - x)
-	    theta = theta + np.linalg.pinv(J) @ error * dt
+	    theta = theta + np.matmul(np.linalg.pinv(J),error) * dt
 
-	    mearm.setTheta(theta * 180/np.pi)
+	    #mearm.setTheta(theta * 180/np.pi)
 
 	    time.sleep(0.0001)
 	    print(theta * 180 / np.pi)
@@ -50,7 +51,7 @@ def callback(msg):
 
 rospy.init_node('pos_control')
 
-sub = rospy.Subscriber('listener',Point,callback)
+sub = rospy.Subscriber('pos_control',Point,callback)
 
 rospy.spin()
 

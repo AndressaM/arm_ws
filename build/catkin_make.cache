@@ -1,2 +1,2 @@
-arm_controller:dq_robotics:dq_robotics_example:mearm:robot_setup_tf:uarm
+arm_controller:arm_wrapper:dq_robotics:dq_robotics_example:mearm:robot_setup_tf:uarm
 -DCATKIN_DEVEL_PREFIX=/home/andressa/arm_ws/devel -DCMAKE_INSTALL_PREFIX=/home/andressa/arm_ws/install -G Unix Makefiles
